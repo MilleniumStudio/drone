@@ -17,7 +17,7 @@ package web
 import (
 	"net/http"
 
-	"github.com/drone/drone-ui/dist"
+	"github.com/MilleniumStudio/drone-ui/dist"
 	"github.com/drone/drone/core"
 	"github.com/drone/drone/handler/web/landingpage"
 	"github.com/drone/drone/handler/web/link"
