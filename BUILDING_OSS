@@ -9,3 +9,23 @@
     export DRONE_GITHUB_CLIENT_ID=...
     export DRONE_GITHUB_CLIENT_SECRET=...
     drone-server
+
+
+# Using Docker:
+
+docker run --rm -it -v c:/Users/Kevin/work/fat/drone:/drone -w /drone -e GOARCH=amd64 -e GOOS=linux golang:1.13 scripts/build.sh
+
+docker build \
+    --rm \
+    --pull \
+    -f docker/Dockerfile.server.linux.amd64 \
+    -t milleniumstudio/drone-server:latest \
+    -t milleniumstudio/drone-server:1 \
+    -t milleniumstudio/drone-server:1.6 \
+    -t milleniumstudio/drone-server:1.6.5 \
+    .
+
+docker push milleniumstudio/drone-server:latest
+docker push milleniumstudio/drone-server:1
+docker push milleniumstudio/drone-server:1.6
+docker push milleniumstudio/drone-server:1.6.5
