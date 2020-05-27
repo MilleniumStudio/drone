@@ -12,6 +12,8 @@ github.com/MilleniumStudio/drone-ui v0.0.0-20191008214326-d7df19167fc3 h1:W5HsBu
 github.com/MilleniumStudio/drone-ui v0.0.0-20191008214326-d7df19167fc3/go.mod h1:kOIGe8VGJjJuiSA0YSWH/T7q5SCWahBJnqBxntMf5/o=
 github.com/MilleniumStudio/drone-ui v0.0.0-20200526224434-0e6920ddbfee h1:HJ5uTsxVwOs9byWa8qzgaY3CZREJbNBTjsqaI3ujEp0=
 github.com/MilleniumStudio/drone-ui v0.0.0-20200526224434-0e6920ddbfee/go.mod h1:kOIGe8VGJjJuiSA0YSWH/T7q5SCWahBJnqBxntMf5/o=
+github.com/MilleniumStudio/drone-ui v0.0.0-20200527021134-7b1b0fb5efee h1:pUCLjmYbUhJUnvjRGFTeD4uUj43M8pOa3hhbiHrCpfY=
+github.com/MilleniumStudio/drone-ui v0.0.0-20200527021134-7b1b0fb5efee/go.mod h1:kOIGe8VGJjJuiSA0YSWH/T7q5SCWahBJnqBxntMf5/o=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc h1:cAKDfWh5VpdgMhJosfJnn5/FoN2SRZ4p7fJNX58YPaU=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf h1:qet1QNfXsQxTZqLG4oE62mJzwPIB8+Tee4RNCL9ulrY=
